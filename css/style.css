@@ -46,16 +46,11 @@ img {
  
 
 .section {
-  padding-top: calc(var(--padding-top) /2 ) ;
-  padding-bottom:calc(var(--padding-bottom)/2) ;
-  width: 1600px;
+  padding-top: 94px ;
+  padding-bottom: 94px; ;
   }
   
-  .section-portfolio {
-    padding-top: var(--padding-top);
-    padding-bottom: var(--padding-bottom);
-  }
-  
+    
 .main-content {
   margin: auto;
   display:flex;
@@ -91,7 +86,11 @@ img {
   display: flex;
   align-items: center;
   margin: auto;
+}
+
+.page-header {
   border-bottom: solid 1px #ECECEC;
+
 }
 .nav-header {
   align-items: center;
@@ -112,8 +111,6 @@ margin-right: 50px;
 
 .nav-contact {
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px
 }
 
 
@@ -148,14 +145,13 @@ text-decoration: none;
   color:var(--logo-link);
 }
 .hero {
-  padding: 0;
-  width: 1600px;
-  height: 600px;
+ padding-top: 200px;
+ padding-bottom: 200px;
   background: #2F303A;
 }
 .main-title {
-  margin: auto;
-padding-top: 200px;
+margin: auto;
+margin-bottom: 30px;
 padding-right: 0;
 padding-left: 0;
 max-width: 696px;
@@ -167,14 +163,13 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--white-color);
 }
+
 .btn {
 display: block;
 padding: 10px 32px;
 min-width: 216px;
 height: 50px;
 margin: auto;
-margin-top: 30px;
-margin-bottom: 200px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -304,6 +299,11 @@ overflow: hidden;
   padding-bottom: var(--padding-bottom);
 }
  
+.section.section-work {
+  padding-top:0;
+} 
+
+
 .list-worker {
 display: flex;
 gap: 30px;
@@ -349,6 +349,7 @@ background-color: var(--background-section-work);
   }
 
 .team {
+padding-top: 30px;
 padding-bottom: 30px;
 margin: auto;
  text-align: center;
@@ -375,7 +376,7 @@ margin: auto;
   }
   footer.addresses {
   padding-bottom: 60px;
-  width: 1600px;
+  padding-top: 60px;
   background: #2F303A;
     }  
   .contact-address:hover,
@@ -392,8 +393,7 @@ margin: auto;
   
    .logo-footer {
     display:inline-block;
-   margin-top:  60px;
-    margin-bottom: 20px;
+    margin-bottom: 34px;
 
   }
 .address-footer {
