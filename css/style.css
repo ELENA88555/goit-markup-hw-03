@@ -392,9 +392,9 @@ margin: auto;
 
   
    .logo-footer {
-    display:inline-block;
-    margin-bottom: 34px;
-
+  display:inline-block;
+  margin-bottom: 20px;
+  margin-right: 0;
   }
 .address-footer {
   display: flex;
